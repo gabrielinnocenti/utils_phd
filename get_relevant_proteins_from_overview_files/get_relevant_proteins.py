@@ -218,5 +218,5 @@ table_formatted = get_selected_proteins_from_keywords(overview=overview,
                                                       interproscan_annotations=interproscan_annotations,
                                                       cdhit_thresholds=[cdhit_labelled_thresh, cdhit_unlabelled_thresh])
 print('Saving to table_library_complete.csv ...')
-table_formatted.to_csv('table_library_complete.csv', sep=';', index=False)
+table_formatted.to_csv(f'{args.outdir}/table_library_complete.csv', sep=';', index=False)
 print('Table saved.')
