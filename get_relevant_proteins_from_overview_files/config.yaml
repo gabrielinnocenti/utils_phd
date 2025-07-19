@@ -1,0 +1,101 @@
+input_files:
+  overview_file_path: "Overview_library_10k.tsv"
+  taxonomy_file_path: "taxonomic_ranking_library.csv"
+#  interpro_file_path: "interproscan_all_noMetacyc.tsv"
+
+# interproscan_annotations: True
+interproscan_annotations: False
+
+cdhit_default_thresh: 0.9
+cdhit_labelled_thresh: 0.99
+cdhit_unlabelled_thresh: 0.65
+
+keyword_categories:
+  adhesin_keywords:
+    - "adhesin"
+    - "fimbri"
+    - "lectin"
+    - "pili"
+    - "pilin"
+    - "MSCRAMM"
+    - "autotransporter"
+    - "surface protein"
+    - "internalin"
+    - "fibronectin-binding"
+    - "collagen-binding"
+    - "mucus-binding"
+    - "laminin-binding"
+    - "fibrinogen-binding"
+    - "agglutinin"
+    - "anchor protein"
+    - "cell wall anchor"
+    - "YadA"
+    - "intimin"
+    - "invasin"
+
+  flagellin_keywords:
+    - "flagellin"
+
+  urease_keywords:
+    - "urease"
+    - "urease alpha"
+    - "urease beta"
+    - "urease gamma"
+    - "urease accessory"
+    - "ureA"
+    - "ureB"
+    - "ureC"
+    - "ureD"
+    - "ureE"
+    - "ureF"
+    - "ureG"
+
+  invasion_keywords:
+    - "Cia"
+    - "Ipa"
+    - "IpaD"
+    - "IpaH"
+    - "IpaJ"
+    - "IpgC"
+    - "IpgE"
+    - "IpgF"
+    - "IpgG"
+    - "invasion"
+    - "invasin"
+    - "intimin"
+
+  crc_proteins:
+    - "FadA"
+    - "Fap2"
+    - "colibactin"
+    - "clbA"
+    - "clbB"
+    - "clbC"
+    - "clbP"
+    - "pks"
+    - "CDT"
+    - "BFT"
+    - "fragilysin"
+    - "PCWBR2"
+
+  ar_proteins:
+    - "beta-lactamase"
+    - "tetracycline"
+    - "macrolide"
+    - "aminoglycoside"
+    - "chloramphenicol"
+    - "fosfomycin"
+    - "sulfonamide"
+    - "vancomycin"
+    - "colistin"
+    - "fluoroquinolone"
+
+  immunogenic_proteins:
+    - "VacA"
+    - "CagA"
+    - "PCWBR2"
+    - "TcdA"
+    - "TcdB"
+    - "UreA"
+    - "UreB"
+
