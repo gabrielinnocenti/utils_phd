@@ -1,2 +1,2 @@
-# Scripts which will be used for library building
-Library preparation pre-processing scripts.
+# README
+Scripts which will be used for library building. Pre-processing steps.
